@@ -66,7 +66,7 @@ window.addEventListener('keydown', function(e){
 
     if(playble){
 
-        if(e.keyCode >= 65 && e.keyCode <= 90){
+        if(e.keyCode >= 65 && e.keyCode <= 222){
             const leter = e.key
 
             if(randomWords.includes(leter)){
