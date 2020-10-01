@@ -1,6 +1,6 @@
 var wordContainer = document.getElementById('word')
 var errorWordContainer = document.getElementById('error')
-var words = ['Телефон','Телевизор']
+var words = ['телефон','телевизор','профессионал','разработчик','компьютер','редактор','успех']
 var randomWords = words[Math.floor(Math.random() * words.length)]
 var counter = randomWords.length
 var figureParts = document.querySelectorAll('.figure-part')
